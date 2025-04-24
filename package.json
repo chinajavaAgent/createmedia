@@ -1,0 +1,51 @@
+{
+  "name": "media-create",
+  "version": "1.0.0",
+  "description": "自媒体内容创作平台，专门针对视频平台的爆款内容做拆解分析，帮助用户创作模仿",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "keywords": [
+    "自媒体",
+    "内容创作",
+    "视频分析",
+    "SOP",
+    "爆款内容"
+  ],
+  "author": "Media Create Team",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.4.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.1",
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "next-auth": "^4.22.1",
+    "chart.js": "^4.3.0",
+    "react-chartjs-2": "^5.2.0",
+    "formik": "^2.4.2",
+    "yup": "^1.2.0",
+    "tailwindcss": "^3.3.2",
+    "@headlessui/react": "^1.7.15",
+    "heroicons": "^2.0.18",
+    "swagger-ui-express": "^4.6.3",
+    "openai": "^3.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "eslint": "^8.43.0",
+    "eslint-config-next": "^13.4.7",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "@types/react": "^18.2.14",
+    "@types/node": "^20.3.2",
+    "typescript": "^5.1.3"
+  }
+} 

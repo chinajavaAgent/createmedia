@@ -1,0 +1,57 @@
+# 依赖文件
+node_modules
+**/node_modules
+frontend/node_modules
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# 编译输出
+frontend/dist
+frontend/build
+
+# 本地环境文件
+frontend/.env.local
+frontend/.env.*.local
+
+# 编辑器目录和文件
+frontend/.idea
+frontend/.vscode
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 测试相关
+/coverage
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+
+# 日志文件
+logs
+*.log
+
+# 临时文件
+.tmp
+.temp
+.cache
+
+# 构建工具自动生成的文件
+.eslintcache
+.stylelintcache
+.browserslistrc
+
+# 个人配置文件
+.npmrc
+.yarnrc
+
+# 忽略frontend copy目录
+frontend copy/ 
